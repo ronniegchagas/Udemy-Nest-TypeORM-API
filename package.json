@@ -1,0 +1,15 @@
+{
+  "name": "Udemy-Nest-TypeORM-API",
+  "description": "Construindo uma API Restful de Vendas Javascript com Node.js, Express, Typescript, TypeORM, Postgres, Redis, Docker etc.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
